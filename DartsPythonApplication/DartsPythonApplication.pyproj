@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>64a93a08-fb2f-4401-8531-e4bfa3b67fa4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>DartsPythonApplication.py</StartupFile>
+    <StartupFile>CalculateScore.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="CalculateScore.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DartsPythonApplication.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
